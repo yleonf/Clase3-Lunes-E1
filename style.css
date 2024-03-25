@@ -34,3 +34,21 @@ body{
   color:white;
   text-decoration: none;
 }
+
+.nav-menu{
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+.nav-menu-item{
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.nav-menu-link:hover{
+  color:rgba(226, 43, 168)
+}
+
