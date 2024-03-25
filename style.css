@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+  background-color: blueviolet;
+  height: 80px;
+  position: relative;
+  width: 100%;
+  top:0;
+  left: 0;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px;
+  margin: 0 auto;
+  /*background-color: brown;*/ /*comentario*/
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+}
+.nav-link{
+  color:white;
+  text-decoration: none;
+}
